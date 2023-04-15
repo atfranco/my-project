@@ -4,6 +4,7 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head />
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>      
       <body>
         <Main />
         <NextScript />

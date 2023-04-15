@@ -1,0 +1,62 @@
+.logomenu {
+  font-size: 30px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.logomenu h2 {
+  color: greenyellow;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.navbar {
+  background-color: var(--tom);
+  width: 90px;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  position: absolute;
+  justify-items: center;
+  justify-content: space-between;
+  align-items: center;
+  left: 0;
+  color: var(--fundo);
+  transition: 0.5s ease-in-out;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  box-shadow: var(--clara) 0px 0px 0px 2px, var(--tom) 0px 0px 0px 2px;
+  z-index: 100;
+}
+
+.navbar:hover {
+  background: rgba( 255, 255, 255, 0.05 );
+  backdrop-filter: blur( 4px );
+  color: var(--tom);
+  width: 110px;
+  box-shadow: var(--fundo) 0px 0px 0px 0px, var(--tom) 0px 0px 0px 4px;
+}
+
+.icones {
+  width: 30px;
+  height: 30px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.icones:hover {
+  color: white;
+}
+
+.iconesmenu {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.socialmenu {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
